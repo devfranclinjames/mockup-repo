@@ -1,6 +1,6 @@
 import Wallet from "../imgs/wallet.svg";
 import Divider from "../imgs/divider.svg";
-import User from "../imgs/User.svg";
+import User from "../imgs/user.svg";
 
 function Navigation() {
   return (
