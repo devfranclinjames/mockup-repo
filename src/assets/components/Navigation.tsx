@@ -31,11 +31,13 @@ function Navigation() {
               </button>
             </div>
             <div className="align-self-center ml-3">
-              <img
-                className=""
-                src="https://fun88-six.vercel.app/assets/header/fun88.svg"
-                alt="..."
-              />
+              <a href="/">
+                <img
+                  className=""
+                  src="https://fun88-six.vercel.app/assets/header/fun88.svg"
+                  alt="..."
+                />
+              </a>
             </div>
           </div>
         </div>
