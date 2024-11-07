@@ -1,5 +1,5 @@
 import Wallet from "../imgs/wallet.svg";
-import Divider from "../imgs/Divider.svg";
+import Divider from "../imgs/divider.svg";
 import User from "../imgs/User.svg";
 
 function Navigation() {
