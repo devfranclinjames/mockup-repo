@@ -13,6 +13,7 @@ const getGameService = async () => {
 };
 
 const Search = () => {
+  const [loading, setLoading] = useState(true);
   const [searchItem, setSearchItem] = useState("");
   const [games, setGames] = useState([]);
   const [allGames, setAllGames] = useState([]); // Store
@@ -28,7 +29,7 @@ const Search = () => {
   }, []);
 
   // Search handler
-  const handleInputChange = (e) => {
+  const handleInputChange = (e: any) => {
     const searchTerm = e.target.value;
     setSearchItem(searchTerm);
 
