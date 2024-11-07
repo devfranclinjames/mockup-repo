@@ -9,7 +9,7 @@ interface Game {
 const getGameService = async (): Promise<{ data: Game[] }> => {
   try {
     const url =
-      "https://script.google.com/macros/s/AKfycbxOm5kwr7m8EgoHfmMRMCNAPtAiHda8AVPP3DZuV8tyTnXwQjQMDf6wfkeXCSqpXY7QFg/exec";
+      "https://script.google.com/macros/s/AKfycbzf2XFBElUD5Brf9NI3p1XQ5RTFK3Q70PKcmRSBkuShQHmHA87eGbh-Ys20aSoqrNb83Q/exec";
     const response = await fetch(url);
     return await response.json();
   } catch (error) {

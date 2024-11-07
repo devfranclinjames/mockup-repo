@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomeLayout from "./assets/layouts/HomeLayout";
-import FullwidthLayout from "./assets/layouts/FullwidthLayout";
 import ContactLayout from "./assets/layouts/ContactLayout";
 import NoPageLayout from "./assets/layouts/NoPageLayout";
 
@@ -8,6 +7,7 @@ import Homepage from "./assets/pages/Homepage";
 import Aboutpage from "./assets/pages/Aboutpage";
 import Contactpage from "./assets/pages/Contactpage";
 import New from "./assets/pages/Newpage";
+import FullwidthLayout from "./assets/layouts/FullwidthLayout";
 
 const App = () => {
   return (

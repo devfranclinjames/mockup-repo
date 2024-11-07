@@ -14,7 +14,7 @@ interface ApiResponse {
 const getGameService = async (): Promise<ApiResponse> => {
   try {
     const url =
-      "https://script.google.com/macros/s/AKfycbzbgspiA7LuFaRHgzEP-ePaSXBUQ0Ikcr600sH8Rh4vj1wAfdCXA44K1z0N7OYXnSXnqg/exec";
+      "https://script.google.com/macros/s/AKfycbzf2XFBElUD5Brf9NI3p1XQ5RTFK3Q70PKcmRSBkuShQHmHA87eGbh-Ys20aSoqrNb83Q/exec";
     const response = await fetch(url);
     const data = await response.json();
     return data;
@@ -24,7 +24,7 @@ const getGameService = async (): Promise<ApiResponse> => {
   }
 };
 
-const Search = () => {
+const SearchNew = () => {
   const [searchItem, setSearchItem] = useState("");
   const [games, setGames] = useState<Game[]>([]); // games state
   const [allGames, setAllGames] = useState<Game[]>([]); // allGames state
@@ -82,4 +82,4 @@ const Search = () => {
   );
 };
 
-export default Search;
+export default SearchNew;
