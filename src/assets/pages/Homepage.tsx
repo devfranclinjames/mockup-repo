@@ -1,5 +1,10 @@
+import AllApps from "../components/AllApps";
 function Homepage() {
-  return <div></div>;
+  return (
+    <>
+      <AllApps />
+    </>
+  );
 }
 
 export default Homepage;
