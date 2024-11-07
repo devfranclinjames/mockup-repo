@@ -15,14 +15,14 @@ const Games = () => {
           <li className="nav-link">
             <i className="fa-solid fa-fire" />
             <br />
-            <Link to="/" className="nav-item">
+            <Link to="/mockup-repo" className="nav-item">
               START
             </Link>
           </li>
           <li className="nav-link">
             <img src={Newsvg} alt="" />
             <br />
-            <Link to="/" className="nav-item">
+            <Link to="/new" className="nav-item">
               NEW
             </Link>
           </li>
