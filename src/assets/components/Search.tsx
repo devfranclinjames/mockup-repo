@@ -25,7 +25,6 @@ const getGameService = async (): Promise<ApiResponse> => {
 };
 
 const Search = () => {
-  const [loading, setLoading] = useState(true);
   const [searchItem, setSearchItem] = useState("");
   const [games, setGames] = useState<Game[]>([]); // games state
   const [allGames, setAllGames] = useState<Game[]>([]); // allGames state
