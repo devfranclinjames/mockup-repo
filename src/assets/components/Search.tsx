@@ -14,7 +14,7 @@ interface ApiResponse {
 const getGameService = async (): Promise<ApiResponse> => {
   try {
     const url =
-      "https://script.google.com/macros/s/AKfycbzayG8CCWdGbYTGMgyHARZ4LMJfO5oPHHKpzc89yp8rj8lDAYX64iPeOjLu_49xun0n1w/exec";
+      "https://script.google.com/macros/s/AKfycbxOm5kwr7m8EgoHfmMRMCNAPtAiHda8AVPP3DZuV8tyTnXwQjQMDf6wfkeXCSqpXY7QFg/exec";
     const response = await fetch(url);
     const data = await response.json();
     return data;
